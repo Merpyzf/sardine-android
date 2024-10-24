@@ -8,6 +8,6 @@ import java.util.List;
 @Root
 public class CurrentUserPrivilegeSet {
 
-    @ElementList(inline = true)
+    @ElementList(inline = true, required = false)
     public List<Privilege> privileges;
 }
